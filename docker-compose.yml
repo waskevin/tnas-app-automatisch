@@ -1,0 +1,6 @@
+services:
+  automatisch:
+    image: automatischio/automatisch:0.15.0
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
